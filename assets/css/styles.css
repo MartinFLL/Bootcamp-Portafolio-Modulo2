@@ -1,12 +1,17 @@
-body {
-    font-family: sans-serif;
-    font-size: 1000%;
+/* Cajas */
+.fn-box {
+    display: flex;
 }
 
-div {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.fortnite-box-epic {
+    background-color: #CD59FE;
+    background-image: radial-gradient(ellipse, #CD59FE,#4C197B);
+    border: 5px, solid, #CD59FE;
+}
+
+.fortnite-box-rare {
+    background-color: #00AFFF;
+    background-image: radial-gradient(ellipse, #00AFFF,#00458A);
+    border: 5px, solid, #00AFFF;
+    
 }
