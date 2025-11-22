@@ -15,3 +15,17 @@
     border: 5px, solid, #00AFFF;
     
 }
+
+.fortnite-box-legendary {
+    background-color: #DD6E0E;
+    background-image: radial-gradient(ellipse, #FEE7CE,#DD6E0E);
+    border: 5px, solid, #DD6E0E;
+    
+}
+
+.fortnite-box-crew {
+    background-color: #00AFFF;
+    background-image: url(../images/backgrounds/fortnite-crew-background.png);
+    border: 5px, solid, #76d4ff;
+    
+}
