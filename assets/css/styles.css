@@ -12,6 +12,12 @@
 
 
 /* Cosas del Fortnite */
+.box-generic {
+    background-color: #ffffff;
+    background-image: radial-gradient(ellipse, #ffffff,#555555);
+    border: 5px, solid, #ffffff;
+}
+
 .fortnite-box-epic {
     background-color: #CD59FE;
     background-image: radial-gradient(ellipse, #CD59FE,#4C197B);
@@ -35,6 +41,17 @@
 .fortnite-box-crew {
     background-color: #00AFFF;
     background-image: url(../images/backgrounds/fortnite-crew-background.png);
+    background-position: center;
+    background-size: cover;
     border: 5px, solid, #76d4ff;
+    
+}
+
+.fortnite-box-icon-series {
+    background-color: #5BF0F1;
+    background-image: url(../images/backgrounds/icon-series-background.png);
+    background-position: center;
+    background-size: cover;
+    border: 5px, solid, #5BF0F1;
     
 }
