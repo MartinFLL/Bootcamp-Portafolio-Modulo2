@@ -5,10 +5,22 @@
     border: 0px;
 }
 
-/*  */
+body {
+    background-image: url(../images/backgrounds/og-shop.png);
+    background-position: center;
+    background-size: 100%;
+    background-attachment: fixed;
+}
 
+.transparent-dark-blur {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px);
+}
 
-
+.card-transparent-dark-blur {
+    background-color: rgba(0, 0, 0, 0.253);
+    backdrop-filter: blur(50px);
+}
 
 
 /* Cosas del Fortnite */
