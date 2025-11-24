@@ -8,7 +8,7 @@
 body {
     background-image: url(../images/backgrounds/og-shop.png);
     background-position: center;
-    background-size: 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
@@ -28,6 +28,7 @@ body {
     background-color: #ffffff;
     background-image: radial-gradient(ellipse, #ffffff,#555555);
     border: 5px, solid, #ffffff;
+    backdrop-filter: blur(30px);
 }
 
 .fortnite-box-epic {

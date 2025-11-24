@@ -17,7 +17,7 @@
   <body data-bs-theme="dark">
     <!-- Nav bar -->
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid ">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img
             src="/assets/images/brand-logo.png"
@@ -116,12 +116,21 @@
       <div class="row justify-content-center" id="outfits-section">
         <h2>Outfits</h2>
         <!-- Skull Trooper -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
-          <img
-            src="./assets/images/skins/icon-skull-trooper.png"
-            class="card-img-top fortnite-box-epic"
-            alt="Skull Trooper Outfit"
-          />
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/skins/icon-skull-trooper.png"
+              class="card-img-top fortnite-box-epic"
+              alt="Skull Trooper Outfit"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Skull Trooper</h5>
             <p class="card-text my-2">Victory runs bone-deep.</p>
@@ -139,8 +148,95 @@
           </div>
         </div>
 
+        <!-- Skull Trooper Modal -->
+        <div class="modal fade" id="skulltrooper-modal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="skulltrooper-modalLabel">
+                  About Skull Trooper
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row">
+                    <!-- Modal Left -->
+                    <div class="col-3">
+                      <!-- Item name -->
+                      <p class="h5 text-primary my-1">Item Name</p>
+                      <p class="text-light h2 mb-3">Skull Trooper</p>
+                      <!-- Item Type -->
+                      <p class="h5 text-primary my-1">Category</p>
+                      <p class="text-light h2 mb-3">Outfit</p>
+                      <!-- Price -->
+                      <p class="h5 text-primary my-1">Price</p>
+                      <p class="text-light h2 mb-3 d-flex align-items-center">
+                        <img
+                          src="./assets/images/icons/icon-vbucks.webp"
+                          alt="V-buck icon"
+                          class="img-fluid me-2"
+                          width="30px"
+                        />1,200
+                      </p>
+                    </div>
+
+                    <!-- Modal Middle -->
+                    <div class="col-3">
+                      <!-- Item name -->
+                      <p class="h5 text-primary my-1">Release</p>
+                      <p class="text-light h2 mb-3">Season 1</p>
+                      <!-- Item Type -->
+                      <p class="h5 text-primary my-1">Last seen</p>
+                      <p class="text-light h2 mb-3">Oct 9, 2025</p>
+                      <!-- Price -->
+                      <p class="h5 text-primary my-1">Occurrences</p>
+                      <p class="text-light h2 mb-3">
+                        123
+                      </p>
+                    </div>
+
+
+                    <div class="col-6">
+                      <!-- Modal Right -->
+                      <img
+                        src="./assets/images/skins/featured-skull-trooper.png"
+                        alt="Skull Trooper Featured Image"
+                        class="img-fluid fortnite-box-epic"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-outline-primary">
+                  Add to cart
+                </button>
+                <button type="button" class="btn btn-primary">
+                  Purchase for
+                  <img
+                    src="./assets/images/icons/icon-vbucks.webp"
+                    alt="V-buck icon"
+                    class="img-fluid"
+                    width="19px"
+                  />
+                  1,500
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!-- Ghoul Trooper -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/skins/icon-ghoul-trooper.png"
             class="card-img-top fortnite-box-epic"
@@ -164,7 +260,10 @@
         </div>
 
         <!-- Aerial Assault  Trooper -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/skins/icon-aerial-assault-trooper.png"
             class="card-img-top fortnite-box-rare"
@@ -188,7 +287,10 @@
         </div>
 
         <!-- Renegade Raider -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/skins/icon-renegade-raider.png"
             class="card-img-top fortnite-box-rare"
@@ -212,7 +314,10 @@
         </div>
 
         <!-- Lexa -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/skins/icon-lexa.png"
             class="card-img-top fortnite-box-epic"
@@ -235,7 +340,10 @@
         </div>
 
         <!-- Princess Lexa -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/skins/icon-princess-lexa.png"
             class="card-img-top fortnite-box-crew"
@@ -258,7 +366,10 @@
         </div>
 
         <!-- Lexa Hexbringer -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/skins/icon-lexa-halloween.png"
             class="card-img-top fortnite-box-epic"
@@ -282,7 +393,10 @@
         </div>
 
         <!-- The Reaper -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/skins/icon-thereaper.png"
             class="card-img-top fortnite-box-legendary"
@@ -309,7 +423,10 @@
       <div class="row justify-content-center" id="emotes-section">
         <h2 class="mt-5">Emotes</h2>
         <!-- Miku Miku Beam -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/emotes/mikumikubeam.png"
             class="card-img-top fortnite-box-icon-series"
@@ -333,7 +450,10 @@
         </div>
 
         <!-- Miku Live -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/emotes/mikulive.png"
             class="card-img-top fortnite-box-icon-series"
@@ -357,7 +477,10 @@
         </div>
 
         <!-- Shimmy Wiggle -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/emotes/shimmywiggle.png"
             class="card-img-top fortnite-box-icon-series"
@@ -381,7 +504,10 @@
         </div>
 
         <!-- Shimmy Wiggle -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/emotes/whatyouwant.png"
             class="card-img-top fortnite-box-icon-series"
@@ -409,7 +535,10 @@
       <div class="row justify-content-center" id="other-section">
         <h2 class="mt-5">Other</h2>
         <!-- Ado Plushie -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/other/gyaru.png"
             class="card-img-top box-generic"
@@ -433,7 +562,10 @@
         </div>
 
         <!-- SCP-207 -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/other/scp207.png"
             class="card-img-top box-generic"
@@ -457,7 +589,10 @@
         </div>
 
         <!-- Empanada de queso -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/other/empana-frita-queso.png"
             class="card-img-top box-generic"
@@ -481,7 +616,10 @@
         </div>
 
         <!-- Empanada de queso -->
-        <div class="card col-3 p-0 m-3 card-transparent-dark-blur" style="width: 20rem">
+        <div
+          class="card col-3 p-0 m-3 card-transparent-dark-blur"
+          style="width: 20rem"
+        >
           <img
             src="./assets/images/other/carajitos-tshirt.png"
             class="card-img-top box-generic"
