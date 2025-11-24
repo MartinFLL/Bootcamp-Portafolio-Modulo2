@@ -1,70 +1,77 @@
 /* CSS Reset */
 * {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+/* https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(
+    1.05
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 body {
-    background-image: url(../images/backgrounds/og-shop.png);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  background-image: url(../images/backgrounds/og-shop.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .transparent-dark-blur {
-    background-color: rgba(0, 0, 0, 0.5);
-    backdrop-filter: blur(30px);
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(30px);
 }
 
 .card-transparent-dark-blur {
-    background-color: rgba(0, 0, 0, 0.253);
-    backdrop-filter: blur(50px);
+  background-color: rgba(0, 0, 0, 0.253);
+  backdrop-filter: blur(50px);
 }
-
 
 /* Cosas del Fortnite */
 .box-generic {
-    background-color: #ffffff;
-    background-image: radial-gradient(ellipse, #ffffff,#555555);
-    border: 5px, solid, #ffffff;
-    backdrop-filter: blur(30px);
+  background-color: #ffffff;
+  background-image: radial-gradient(ellipse, #ffffff, #555555);
+  border: 5px, solid, #ffffff;
+  backdrop-filter: blur(30px);
 }
 
 .fortnite-box-epic {
-    background-color: #CD59FE;
-    background-image: radial-gradient(ellipse, #CD59FE,#4C197B);
-    border: 5px, solid, #CD59FE;
+  background-color: #cd59fe;
+  background-image: radial-gradient(ellipse, #cd59fe, #4c197b);
+  border: 5px, solid, #cd59fe;
 }
 
 .fortnite-box-rare {
-    background-color: #00AFFF;
-    background-image: radial-gradient(ellipse, #00AFFF,#00458A);
-    border: 5px, solid, #00AFFF;
-    
+  background-color: #00afff;
+  background-image: radial-gradient(ellipse, #00afff, #00458a);
+  border: 5px, solid, #00afff;
 }
 
 .fortnite-box-legendary {
-    background-color: #DD6E0E;
-    background-image: radial-gradient(ellipse, #FEE7CE,#DD6E0E);
-    border: 5px, solid, #DD6E0E;
-    
+  background-color: #dd6e0e;
+  background-image: radial-gradient(ellipse, #fee7ce, #dd6e0e);
+  border: 5px, solid, #dd6e0e;
 }
 
 .fortnite-box-crew {
-    background-color: #00AFFF;
-    background-image: url(../images/backgrounds/fortnite-crew-background.png);
-    background-position: center;
-    background-size: cover;
-    border: 5px, solid, #76d4ff;
-    
+  background-color: #00afff;
+  background-image: url(../images/backgrounds/fortnite-crew-background.png);
+  background-position: center;
+  background-size: cover;
+  border: 5px, solid, #76d4ff;
 }
 
 .fortnite-box-icon-series {
-    background-color: #5BF0F1;
-    background-image: url(../images/backgrounds/icon-series-background.png);
-    background-position: center;
-    background-size: cover;
-    border: 5px, solid, #5BF0F1;
-    
+  background-color: #5bf0f1;
+  background-image: url(../images/backgrounds/icon-series-background.png);
+  background-position: center;
+  background-size: cover;
+  border: 5px, solid, #5bf0f1;
 }

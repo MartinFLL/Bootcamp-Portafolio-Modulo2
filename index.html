@@ -51,9 +51,7 @@
               >
             </li>
             <li class="nav-item">
-              <a
-                class="nav-link"
-                href="https://github.com/MartinFLL/Bootcamp-Portafolio-Modulo2"
+              <a class="nav-link" href=""
                 ><svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -127,7 +125,7 @@
           >
             <img
               src="./assets/images/skins/icon-skull-trooper.png"
-              class="card-img-top fortnite-box-epic"
+              class="card-img-top fortnite-box-epic zoom"
               alt="Skull Trooper Outfit"
             />
           </a>
@@ -149,13 +147,12 @@
         </div>
 
         <!-- Skull Trooper Modal -->
-        <div class="modal fade" id="skulltrooper-modal" tabindex="-1">
-          <div class="modal-dialog modal-dialog-centered modal-xl">
+        <!-- Se usará de ejemplo para TODOS los productos de la tienda -->
+        <div class="modal fade card-transparent-dark-blur" id="skulltrooper-modal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered modal-xl ">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="skulltrooper-modalLabel">
-                  About Skull Trooper
-                </h1>
+                <h1 class="modal-title fs-5">About Skull Trooper</h1>
                 <button
                   type="button"
                   class="btn-close"
@@ -166,49 +163,56 @@
               <div class="modal-body">
                 <div class="container-fluid">
                   <div class="row">
-                    <!-- Modal Left -->
-                    <div class="col-3">
-                      <!-- Item name -->
-                      <p class="h5 text-primary my-1">Item Name</p>
-                      <p class="text-light h2 mb-3">Skull Trooper</p>
-                      <!-- Item Type -->
-                      <p class="h5 text-primary my-1">Category</p>
-                      <p class="text-light h2 mb-3">Outfit</p>
-                      <!-- Price -->
-                      <p class="h5 text-primary my-1">Price</p>
-                      <p class="text-light h2 mb-3 d-flex align-items-center">
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="row">
+                          <div class="col-6">
+                            <p class="h5 text-primary my-1">Item Name</p>
+                            <p class="text-light h2 mb-3">Skull Trooper</p>
+                            <!-- Item Type -->
+                            <p class="h5 text-primary my-1">Category</p>
+                            <p class="text-light h2 mb-3">Outfit</p>
+                            <!-- Price -->
+                            <p class="h5 text-primary my-1">Price</p>
+                            <p
+                              class="text-light h2 mb-3 d-flex align-items-center"
+                            >
+                              <img
+                                src="./assets/images/icons/icon-vbucks.webp"
+                                alt="V-buck icon"
+                                class="img-fluid me-2"
+                                width="30px"
+                              />1,200
+                            </p>
+                          </div>
+                          <div class="col-6">
+                            <p class="h5 text-primary my-1">Release</p>
+                            <p class="text-light h2 mb-3">Season 1</p>
+                            <!-- Item Type -->
+                            <p class="h5 text-primary my-1">Last seen</p>
+                            <p class="text-light h2 mb-3">Oct 9, 2025</p>
+                            <!-- Price -->
+                            <p class="h5 text-primary my-1">Occurrences</p>
+                            <p class="text-light h2 mb-3">123</p>
+                          </div>
+                          <div
+                            class="col-9 text-center text-muted container-fluid mt-5"
+                          >
+                            Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Exercitationem voluptatum delectus fugit sit
+                            voluptate laboriosam iusto doloremque ullam incidunt
+                            ipsa corporis blanditiis repudiandae officia,
+                            aliquid voluptatem ex alias quod hic?
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-6">
                         <img
-                          src="./assets/images/icons/icon-vbucks.webp"
-                          alt="V-buck icon"
-                          class="img-fluid me-2"
-                          width="30px"
-                        />1,200
-                      </p>
-                    </div>
-
-                    <!-- Modal Middle -->
-                    <div class="col-3">
-                      <!-- Item name -->
-                      <p class="h5 text-primary my-1">Release</p>
-                      <p class="text-light h2 mb-3">Season 1</p>
-                      <!-- Item Type -->
-                      <p class="h5 text-primary my-1">Last seen</p>
-                      <p class="text-light h2 mb-3">Oct 9, 2025</p>
-                      <!-- Price -->
-                      <p class="h5 text-primary my-1">Occurrences</p>
-                      <p class="text-light h2 mb-3">
-                        123
-                      </p>
-                    </div>
-
-
-                    <div class="col-6">
-                      <!-- Modal Right -->
-                      <img
-                        src="./assets/images/skins/featured-skull-trooper.png"
-                        alt="Skull Trooper Featured Image"
-                        class="img-fluid fortnite-box-epic"
-                      />
+                          src="./assets/images/skins/featured-skull-trooper.png"
+                          alt="Skull Trooper Featured Image"
+                          class="img-fluid fortnite-box-epic"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -237,11 +241,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/skins/icon-ghoul-trooper.png"
-            class="card-img-top fortnite-box-epic"
-            alt="Ghoul Trooper Outfit"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/skins/icon-ghoul-trooper.png"
+              class="card-img-top fortnite-box-epic zoom"
+              alt="Ghoul Trooper Outfit"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Ghoul Trooper</h5>
             <p class="card-text my-2">Epic ghoul trooper outfit.</p>
@@ -264,11 +274,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/skins/icon-aerial-assault-trooper.png"
-            class="card-img-top fortnite-box-rare"
-            alt="Aerial Assault Trooper Outfit"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/skins/icon-aerial-assault-trooper.png"
+              class="card-img-top fortnite-box-rare zoom"
+              alt="Aerial Assault Trooper Outfit"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Aerial Assault Trooper</h5>
             <p class="card-text my-2">Rare aerial assault trooper outfit.</p>
@@ -291,11 +307,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/skins/icon-renegade-raider.png"
-            class="card-img-top fortnite-box-rare"
-            alt="Renegade Raider Outfit"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/skins/icon-renegade-raider.png"
+              class="card-img-top fortnite-box-rare zoom"
+              alt="Renegade Raider Outfit"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Renegade Raider</h5>
             <p class="card-text my-2">Rare renegade raider outfit.</p>
@@ -318,11 +340,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/skins/icon-lexa.png"
-            class="card-img-top fortnite-box-epic"
-            alt="Lexa Outfit"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/skins/icon-lexa.png"
+              class="card-img-top fortnite-box-epic zoom"
+              alt="Lexa Outfit"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Lexa</h5>
             <p class="card-text my-2">Don't let the smile fool you.</p>
@@ -344,11 +372,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/skins/icon-princess-lexa.png"
-            class="card-img-top fortnite-box-crew"
-            alt="Princess Lexa Outfit"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/skins/icon-princess-lexa.png"
+              class="card-img-top fortnite-box-crew zoom"
+              alt="Princess Lexa Outfit"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Princess Lexa</h5>
             <p class="card-text my-2">The witching hour has arrived.</p>
@@ -370,11 +404,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/skins/icon-lexa-halloween.png"
-            class="card-img-top fortnite-box-epic"
-            alt="Lexa Hexbringer Outfit"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/skins/icon-lexa-halloween.png"
+              class="card-img-top fortnite-box-epic zoom"
+              alt="Lexa Hexbringer Outfit"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Lexa Hexbringer</h5>
             <p class="card-text my-2">The witching hour has arrived.</p>
@@ -397,11 +437,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/skins/icon-thereaper.png"
-            class="card-img-top fortnite-box-legendary"
-            alt="The Reaper Outfit"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/skins/icon-thereaper.png"
+              class="card-img-top fortnite-box-legendary zoom"
+              alt="The Reaper Outfit"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">The Reaper</h5>
             <p class="card-text my-2">Vengeance for hire.</p>
@@ -427,11 +473,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/emotes/mikumikubeam.png"
-            class="card-img-top fortnite-box-icon-series"
-            alt="Miku Miku Beam Emote"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/emotes/mikumikubeam.png"
+              class="card-img-top fortnite-box-icon-series zoom"
+              alt="Miku Miku Beam Emote"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Miku Miku Beam</h5>
             <p class="card-text my-2">1... 2... 3... ready?</p>
@@ -454,11 +506,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/emotes/mikulive.png"
-            class="card-img-top fortnite-box-icon-series"
-            alt="Miku Live Emote"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/emotes/mikulive.png"
+              class="card-img-top fortnite-box-icon-series zoom"
+              alt="Miku Live Emote"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Miku Live</h5>
             <p class="card-text my-2">Dance like Hatsune Miku.</p>
@@ -481,11 +539,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/emotes/shimmywiggle.png"
-            class="card-img-top fortnite-box-icon-series"
-            alt="Shimmy Wiggle Emote"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/emotes/shimmywiggle.png"
+              class="card-img-top fortnite-box-icon-series zoom"
+              alt="Shimmy Wiggle Emote"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Shimmy Wiggle</h5>
             <p class="card-text my-2">Get ready to wag.</p>
@@ -503,16 +567,22 @@
           </div>
         </div>
 
-        <!-- Shimmy Wiggle -->
+        <!-- What You Want-->
         <div
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/emotes/whatyouwant.png"
-            class="card-img-top fortnite-box-icon-series"
-            alt="What You Want Emote"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/emotes/whatyouwant.png"
+              class="card-img-top fortnite-box-icon-series zoom"
+              alt="What You Want Emote"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">What You Want</h5>
             <p class="card-text my-2">Get what you need.</p>
@@ -539,11 +609,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/other/gyaru.png"
-            class="card-img-top box-generic"
-            alt="Ado Plushie"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/other/gyaru.png"
+              class="card-img-top box-generic zoom"
+              alt="Ado Plushie"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Ado Plush</h5>
             <p class="card-text my-2">gyaru</p>
@@ -566,11 +642,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/other/scp207.png"
-            class="card-img-top box-generic"
-            alt="SCP-207"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/other/scp207.png"
+              class="card-img-top box-generic zoom"
+              alt="SCP-207"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">SCP-207</h5>
             <p class="card-text my-2">Harmfully increases motor skills.</p>
@@ -593,11 +675,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/other/empana-frita-queso.png"
-            class="card-img-top box-generic"
-            alt="Empanada frita de queso"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/other/empana-frita-queso.png"
+              class="card-img-top box-generic zoom"
+              alt="Empanada frita de queso"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Empanada de queso</h5>
             <p class="card-text my-2">Que rico oye una empanadita.</p>
@@ -620,11 +708,17 @@
           class="card col-3 p-0 m-3 card-transparent-dark-blur"
           style="width: 20rem"
         >
-          <img
-            src="./assets/images/other/carajitos-tshirt.png"
-            class="card-img-top box-generic"
-            alt="Empanada frita de queso"
-          />
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#skulltrooper-modal"
+          >
+            <img
+              src="./assets/images/other/carajitos-tshirt.png"
+              class="card-img-top box-generic zoom"
+              alt="Empanada frita de queso"
+            />
+          </a>
           <div class="card-body text-center">
             <h5 class="card-title">Prohibido enviar carajitos shirt</h5>
             <p class="card-text my-2">Corta la lesera po oye.</p>
@@ -657,9 +751,7 @@
           >
         </li>
         <li class="nav-item">
-          <a
-            class="nav-link px-2 text-body-secondary"
-            href="https://github.com/MartinFLL/Bootcamp-Portafolio-Modulo2"
+          <a class="nav-link px-2 text-body-secondary" href=""
             ><svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
